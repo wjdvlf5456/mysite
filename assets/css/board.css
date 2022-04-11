@@ -6,3 +6,18 @@
 	content: ">"
 }
 
+
+
+
+
+
+
+
+#main-contents-header ol {
+	float: right;
+}
+
+#main-contents-header li {
+	float: left;
+}
+

@@ -129,7 +129,7 @@ a:active  {color: #000000; text-decoration: none;}   /* 클릭했을때 빨간�
 /* main (메인컨텐츠) */
 
 #contents > #main-contents {
-	width: 810px;
+	width: 820px;
 	float: left;
 }
 
@@ -149,6 +149,13 @@ a:active  {color: #000000; text-decoration: none;}   /* 클릭했을때 빨간�
 	font-size: 12px;
 }
 
+/*
+#footer div {
+	text-align: center;
+	font-size: 12px;
+	line-height: 50px;
+}
+*/
 
 
 
