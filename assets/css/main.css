@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* ************************ 게시판 *************************** */
+
+#img-profile {
+	margin: 0px 20px;
+	width: 300px;
+	float: left;
+}
+
+#greeting {
+	float: left;
+	font-size: 18px;
+}
+
