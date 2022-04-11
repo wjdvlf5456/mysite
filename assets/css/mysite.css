@@ -35,6 +35,12 @@ a:active  {color: #000000; text-decoration: none;}   /* 클릭했을때 빨간�
 	font-weight: bold;
 }
 
+.pointer {
+	cursor: pointer;
+}
+
+
+
 /* ******************레이아웃************************** */
 #wrap {
 	margin: 0px auto;
@@ -128,16 +134,16 @@ a:active  {color: #000000; text-decoration: none;}   /* 클릭했을때 빨간�
 
 /* main (메인컨텐츠) */
 
-#contents > #main-contents {
+#contents>#main-content {
 	width: 820px;
 	float: left;
 }
 
-#contents > #main-contents > #main-contents-header{
+#contents > #main-content > #main-content-header{
 	padding: 18px 0px 5px 0px;
 	border-bottom: 1px solid #bfbfbf;
 }
-#contents > #main-contents > #main-contents-header h3{
+#contents > #main-content > #main-content-header h3{
 	font-size: 18px;
 	font-weight: bold;
 }
