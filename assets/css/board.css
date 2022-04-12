@@ -1,89 +1,21 @@
 @charset "UTF-8";
 /* ************************ 게시판 메인 *************************** */
 
-.form-group {
-	padding: 0px 0px 10px 0px;
-}
-
-input[type="text"] {
-	padding: 6px 3px 6px 6px;
-}
-
-input[type="password"] {
-	padding: 6px 3px 6px 6px;
-}
-input[type="radio"] {
-	width: 15px;
-	height: 15px;
-	margin: 0px 20px 0px 0px;
-	vertical-align: middle;
-}
-input[type="checkbox"] {
-	width: 15px;
-	height: 15px;
-	margin: 0px 20px 0px 0px;
-	vertical-align: middle;
-}
-
-selelct {
-	padding: 6px 3px 6px 6px;
-}
-
-textarea {
-	font-size: 14px;
-	font-family: "맑은 고딕", 돋움, 굴림;
-}
-.btn {
-	padding: 5px 0px 5px 0px;	
-	width: 80px;
-	cursor: pointer;
-}
 
 #main-content-body{
 	padding: 30px 0px 20px 0px;
 	border-bottom: 1px solid #bfbfbf;
 }
 
-#main-content-footer{
-	padding: 20px 0px 20px 0px;
-	text-align: center;
-}
 
 /* ************************ 리스트 *************************** */
-/* #main-content-header li:after {
-	content: ">"
-}
 
-#main-content-header ol {
-	float: right;
-}
 
-#main-content-header li {
-	float: left;
-} */
+#main-content-header {
+	overflow: hidden;
+}
 
 /* ************************ 글쓰기폼 *************************** */
-
-
-
-#main-content-body .form-title {
-	width: 80px;
-	display: inline-block;
-}
-
-#main-content-body #sel-board {
-	padding: 6px 3px;
-	width: 162px;
-	/* height: 25px; */
-}
-
-#main-content-body #txt-title {
-	width: 722px;
-}
-#main-content-body #txt-password {
-	width: 150px;
-}
-
 #main-content-body #txt-content {
 	width: 808px;
 	height: 200px;

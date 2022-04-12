@@ -1,67 +1,155 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>게시판</title>
-		<link rel="stylesheet" href="/Users/choijungphil/javaStudy/workspace_front/mysite2/assets/css/mysite.css">
-		<link rel="stylesheet" href="/Users/choijungphil/javaStudy/workspace_front/mysite2/assets/css/board.css">
-	</head>
-	
-	<body>
-		<div id="wrap">
-			<div id="header" class="clearfix">
-				<h1>Mysite</h1>
-				<ul>
-					<li><a href="" class="clearfix">로그인</a></li>
-					<li><a href="" class="clearfix">회원가입</a></li>
-				</ul>
-			</div>
-			<!-- //header -->
-			<div id="nav" class="clearfix">
-				<ul>
-					<li><a href="index2.html" target="_self">입사지원서</a></li>
-					<li><a href="list.html" target="_self">게시판</a></li>
-					<li><a href="index4.html" target="_self">갤러리</a></li>
-					<li><a href="index5.html" target="_self">방명록</a></li>
-				</ul>
-			</div>
-			<!-- //nav -->
-			<div id="contents" class="clearfix">
-				 <div id="aside">
-				 	<h2>게시판</h2>
-				 	<ul>
-				 		<li>일반 게시판</li>
-				 		<li>댓글 게시판</li>
-				 		<li>첨부 게시판</li>
-			 		</ul>
-				 
-				 
-				 </div>
-				 <!-- //aside -->
-				 <div id="main-content">
-				 	<div id="main-content-header">
-				 	<h3>일반게시판</h3>
-				 	<!-- 
+
+<head>
+    <meta charset="UTF-8">
+    <title>일반 게시판</title>
+    <link rel="stylesheet" href="/Users/choijungphil/javaStudy/workspace_front/mysite/assets/css/mysite.css">
+    <link rel="stylesheet" href="/Users/choijungphil/javaStudy/workspace_front/mysite/assets/css/list.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header" class="clearfix">
+            <h1>Mysite</h1>
+            <ul>
+                <li><a href="" class="clearfix">로그인</a></li>
+                <li><a href="" class="clearfix">회원가입</a></li>
+            </ul>
+        </div>
+        <!-- //header -->
+        <div id="nav" class="clearfix">
+            <ul>
+                <li><a href="index2.html" target="_self">입사지원서</a></li>
+                <li><a href="list.html" target="_self">게시판</a></li>
+                <li><a href="index4.html" target="_self">갤러리</a></li>
+                <li><a href="index5.html" target="_self">방명록</a></li>
+            </ul>
+        </div>
+        <!-- //nav -->
+        <div id="contents" class="clearfix">
+            <div id="aside">
+                <h2>게시판</h2>
+                <ul>
+                    <li>일반 게시판</li>
+                    <li>댓글 게시판</li>
+                    <li>첨부 게시판</li>
+                </ul>
+            </div>
+            <!-- //aside -->
+            <div id="main-content">
+                <div id="main-content-header">
+                    <h3>일반게시판</h3>
 				 	<ol>
-				 		<li>홈</li>
-				 		<li>게시판</li>
+				 		<li class="txt-li">홈</li>
+				 		<li class="txt-li">게시판</li>
 				 		<li>일반게시판</li>
 				 	</ol> 
-				 	-->
-				 	</div>
-			<!-- //main-content-header -->
-				 </div>
-			<!-- //main-content -->
-			</div>
-			<!-- //contents -->
-			
-			<div id="footer">
-				<div>
-					Copyright ⓒ 2022 최정필 All rights reserved.
+                </div>
+                <!-- //main-content-header -->
+                <div id="main-content-body">
+                	<div id="list-search">
+					<input type="text">
+					<button class="btn">검색</button>
+					</div>
+					<table>
+						<colgroup>
+							<col style= "width: 100px">
+							<col style= "width: 210px">
+							<col style= "width: 130px">
+							<col style= "width: 130px">
+							<col style= "width: 130px">
+							<col style= "width: 100px">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>번호</th>
+								<th>제목</th>
+								<th>글쓴이</th>
+								<th>조회수</th>
+								<th>작성일</th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>5</td>
+								<td>bbbbbbbb</td>
+								<td>cccccc</td>
+								<td>25</td>
+								<td>2022-04-10</td>
+								<td>삭제</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>bbbbbbbb</td>
+								<td>cccccc</td>
+								<td>24</td>
+								<td>2022-04-10</td>
+								<td>삭제</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>bbbbbbbb</td>
+								<td>cccccc</td>
+								<td>23</td>
+								<td>2022-04-10</td>
+								<td>삭제</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>bbbbbbbb</td>
+								<td>cccccc</td>
+								<td>20</td>
+								<td>2022-04-10</td>
+								<td>삭제</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>bbbbbbbb</td>
+								<td>cccccc</td>
+								<td>10</td>
+								<td>2022-04-10</td>
+								<td>삭제</td>
+							</tr>
+						</tbody>
+					</table>
+                </div>
+                
+                
+                <!-- //main-content-body -->
+                <div id="main-content-footer">
+				<button class="btn fr">글쓰기</button>
+				
+				<ul>
+					<li>◀︎︎</li>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+					<li>6</li>
+					<li>7</li>
+					<li>8</li>
+					<li>9</li>
+					<li>10</li>
+					<li>︎▶︎</li>
+				</ul>
 				</div>
-			</div>
-			<!-- //footer -->
-		</div>
-		<!-- //wrap -->
-	</body>
+                <!-- //main-content-footer -->
+            </div>
+            <!-- //main-content -->
+        </div>
+        <!-- //contents -->
+
+        <div id="footer">
+            <div>
+                Copyright ⓒ 2020 황일영 All rights reserved.
+            </div>
+        </div>
+        <!-- //footer -->
+    </div>
+    <!-- //wrap -->
+</body>
+
 </html>

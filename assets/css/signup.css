@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* ************************ 게시판 *************************** */
+
+/* main (메인컨텐츠) */
+.form-group {
+	padding: 10px 0px 10px 0px;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+.form-zip {
+	padding: 5px 0px 0px 0px;
+}
+/* ************************ 글쓰기폼 *************************** */
+#main-content-body #txt-content {
+	width: 733px;
+	height: 100px;
+}
+
+#main-content-body{
+	padding: 0px 0px 20px 0px;
+}
