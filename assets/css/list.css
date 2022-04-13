@@ -45,8 +45,8 @@
 
 
 /* ************************ 푸터 *************************** */
-#main-content-footer>ul {
-	padding: 0px 0px 0px 0px;
+#main-content-footer ul {
+	padding: 0px 0px 0px 280px;
 }
 
 #main-content-footer>ul>li {

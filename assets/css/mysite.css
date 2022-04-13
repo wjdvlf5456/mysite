@@ -136,11 +136,13 @@ input[type="checkbox"] {
 /* ******************해더(로고  로그인,회원가입)************************** */
 #header h1 {
 	float: left;
-	color: #79B30B;
 	font-size: 35px;
 	font-weight: bold;
+	color: #79B30B;
 }
-
+#header h1 a {
+	color: #79B30B;
+}
 #header ul {
 	margin: 15px 0px 0px 0px;
 	float: right;
